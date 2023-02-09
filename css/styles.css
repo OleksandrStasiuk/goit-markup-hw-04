@@ -263,9 +263,6 @@ body {
 .team {
   padding-top: 120px;
   padding-bottom: 120px;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
   background: var(--background-team-color);
 }
 .team-title {
@@ -365,9 +362,6 @@ body {
   background-color: var(--background-primary-section-color);
   padding-top: 100px;
   padding-bottom: 100px;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   justify-content: flex-start;
 }
@@ -459,7 +453,6 @@ body {
   column-gap: 24px;
 }
 .galery-card-content-wrapper:is(:hover, :focus) {
-  border: 0.5px solid #f4f4fd;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
